@@ -1,0 +1,21 @@
+.tool-buttons {
+    margin-top: 30px;
+    padding: 0 10px;
+
+    & > button {
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.data-list {
+    margin-top: 30px;
+}
+
+button {
+    mat-icon {
+        font-size: 20px;
+    }
+}
